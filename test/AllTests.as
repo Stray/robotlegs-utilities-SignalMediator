@@ -7,13 +7,13 @@ package {
 	 */
 
 	import asunit.framework.TestSuite;
-//	import org.robotlegs.mvcs.SignalMapTest;
+	import org.robotlegs.mvcs.SignalMapTest;
 	import org.robotlegs.mvcs.SignalMediatorTest;
 
 	public class AllTests extends TestSuite {
 
 		public function AllTests() {
-//			addTest(new org.robotlegs.mvcs.SignalMapTest());
+			addTest(new org.robotlegs.mvcs.SignalMapTest());
 			addTest(new org.robotlegs.mvcs.SignalMediatorTest());
 		}
 	}
