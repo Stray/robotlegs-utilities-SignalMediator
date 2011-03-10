@@ -31,4 +31,10 @@ The sugar methods `addToSignal` and `addOnceToSignal` are provided for convenien
 	                                                                                                                                        
 **You can also use the SignalMap outside of SignalMediator**
 
-`SignalMap` itself has no dependencies and can be used within a complex view, a service or any other place it might be useful to you. Even a controller if you're into that kind of thing.
+`SignalMap` itself has no dependencies and can be used within a complex view, a service or any other place it might be useful to you. Even a controller if you're into that kind of thing.            
+
+**Compatibility**
+
+This should be compatible with any 1.x robotlegs release, and at least 0.7 and 0.8 releases of signals.
+The SignalMap makes use of the Vector class - available only in Flash Player 10+. It should be trivial to switch out the Vector for an array if you required FP 9 usage.
+
